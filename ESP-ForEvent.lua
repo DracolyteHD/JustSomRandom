@@ -22,13 +22,13 @@ function addUI(part)
 end
 
 for _, v in pairs(game:GetService("Workspace").QuestWorkspaceStorage.SpawnedItems:GetChildren()) do
-		addUI(v)
+	addUI(v)
 end
 game:GetService("Workspace").QuestWorkspaceStorage.SpawnedItems.ChildAdded:Connect(function(v)
 	addUI(v)
 end)
 for _, v in pairs(game:GetService("Workspace").QuestWorkspaceStorage.Bunnies.SpawnedBunnies:GetChildren()) do
-		addUI(v)
+	addUI(v)
 end
 game:GetService("Workspace").QuestWorkspaceStorage.Bunnies.SpawnedBunnies.ChildAdded:Connect(function(v)
 	addUI(v)
