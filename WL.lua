@@ -38,7 +38,7 @@ Tab1:Label('Autoblock (Must hold wand)')
 
 local Tab2 = Library:CreateTab('Other Usefull GUIs')
 Tab2:Button('HitBoxExpander', function()
-    loadstring(game:HttpGet("http://gameovers.net/Scripts/Free/HitboxExpander/main.lua", true))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/RectangularObject/Roblox-Hitbox-Expander/main/HitboxExtenderv2.lua",true))()
 end)
 Tab2:Button('IY Admin', function()
     loadstring(game:HttpGet(('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'),true))()
